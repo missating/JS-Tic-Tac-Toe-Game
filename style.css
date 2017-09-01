@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Pacifico');
+
+#heading {
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+}
+
+a {
+  font-size: 16px;
+  color: #bb7432;
+}
+
+#message {
+ text-align: center;
+  padding-right: 150px;
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+
+table {
+  margin: auto;
+  }
+  
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Anton', sans-serif;
+}
+
+.vertical {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.horizontal {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}

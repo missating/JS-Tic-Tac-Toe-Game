@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> tic tac </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body onload = "startGame();">
+
+  <div>
+
+    <div id="heading">
+      <h1> Tic Tac Toe </h1>
+   		<a href="javascript: startGame();"> Start Over</a>
+
+    </div>
+
+    <p id="message"> message here </p>
+
+    <table>
+      <tr>
+        <td class="box" id="b1" onClick="firstMove(this)"> </td>
+        <td class="box vertical" id="b2" onClick="firstMove(this)"> </td>
+        <td class="box" id="b3" onClick="firstMove(this)"> </td>
+      </tr>
+
+      <tr>
+        <td class="box horizontal" id="b4" onClick="firstMove(this)"> </td>
+        <td class="box vertical horizontal" id="b5" onClick="firstMove(this)"> </td>
+        <td class="box horizontal" id="b6" onClick="firstMove(this)"> </td>
+      </tr>
+
+      <tr>
+        <td class="box" id="b7" onClick="firstMove(this)"> </td>
+        <td class="box vertical" id="b8" onClick="firstMove(this)"> </td>
+        <td class="box" id="b9" onClick="firstMove(this)"> </td>
+      </tr>
+
+    </table>
+
+     
+
+  </div>
+
+
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
